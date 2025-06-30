@@ -11,8 +11,9 @@ At the moment of writing this guide script works the following way:
 
 1) Clone repo <code>git clone https://github.com/arsy-off/encar-parser.git</code>
 2) Set corresponding platform in <code>docker-compose.yaml</code>
-3) Run <code>docker compose up -d</code>. Images of Selenium server, MongoDB, and MongoDB express will be pulled and then run
-4) Check logs of app container. There should not be any exception raised
+3) Run <code>docker compose up -d</code>. Images of Selenium server, MongoDB, and MongoDB express will be pulled and then ran
+4) Check logs of app container. There should not be any exception raised.
 
 ### N.B.
-In order to use this without docker, set up usage of local webdriver
+* Script will be executed once. Orchestration is needed
+* In order to use this without docker, set up usage of local webdriver
